@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0%;
+    background-color: #151515;
+}
+
+#menu{
+    height: 120px;
+    padding: 0% 20px;
+    background-color: #151515;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+#i-menu{
+    height: 120px;
+    padding: 0% 20px;
+    background-color: #151515;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    display: flexbox;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 40px;
+    line-height: 120px;
+    color: #920f92;
+    float: left;
+    margin-left: 20px;
+}
+
+nav{
+    float: right;
+    line-height: 120px;
+    margin-right: 20px;
+}
+nav a:link{
+    color: #920f92;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 21px;
+}
+nav a:hover{
+    color: #920f92;
+    border-bottom: 2px solid ;
+}
+nav a:visited{
+    color: #920f92;
+}
+nav a:active{
+    color: #920f92;
+}
+.ikon{
+    font-size: 26px;
+    margin-right: 10px;
+}
+.i-ikon{
+    font-size: 23px;
+    margin-right: 10px;
+}
+#anasayfa{
+    background-image: url("img/anasayfa.jpg");
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+}
+#hakkinda{
+    position: relative;
+    background-image: url("img/hakkinda.png");
+    height: 50%;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 8%;
+}
+#beceriler{
+    position: relative;
+    background-image: url("img/beceriler.png");
+    height: 50%;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 8%;
+}
+#iletisim{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 38%;
+}
+#black{
+    background-color: black;
+    height: 44vw;
+    opacity: 45%;
+}
+#icerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+#icerik2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1;
+}
+#icerik3{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1;
+}
+div h2{
+    font-size: 30px;
+}
+#p1{
+    font-size: 20px;
+}
+div hr{
+    background-color:#9e0a9e;
+}
+#uyari {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: #252525;
+    border: 3px solid #ac0582;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    color:aliceblue
+}
+@media screen and (max-width: 768px) {
+    #logo {
+        font-size: 20px;
+    }
+    .ikon,.i-ikon{
+        font-size: 20px;
+    }
+    nav {
+        margin-right: 10px;
+    }
+    nav a:link, nav a:visited {
+        font-size: 14px;
+    }
+}
